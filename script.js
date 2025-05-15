@@ -29,7 +29,7 @@ END:VCARD
   const blob = new Blob([vCardData], { type: 'text/vcard' });
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
-  link.download = 'ChloeLuai.vcf';
+  link.download = OYC.vcf';
   link.click();
 }
 
